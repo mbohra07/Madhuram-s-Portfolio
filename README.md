@@ -1,212 +1,146 @@
-# 📊 NVIDIA Investment Analysis Dashboard
+# 👋 Hi, I'm Madhuram Bohra
 
-A comprehensive Streamlit web application that transforms the NVIDIA investment analysis report into an interactive, professional-grade financial dashboard.
+**Aspiring AI/ML Engineer & Data Scientist** passionate about building intelligent systems and leveraging data to drive innovation.
 
-## 🚀 Features
-
-### **Multi-Page Layout**
-- **Executive Summary**: Key metrics, investment recommendation, and revenue trends
-- **Fundamental Analysis**: Profitability trends, financial ratios, and quarterly data
-- **Technical Analysis**: Price performance charts and technical indicators
-- **Balance Sheet**: Asset composition, debt analysis, and financial health
-- **Cash Flow**: Operating cash flow trends and capital allocation
-- **Investment Recommendation**: Detailed buy/sell recommendation with risk assessment
-
-### **Interactive Components**
-- 📈 Dynamic charts and visualizations using Plotly
-- 📊 Interactive tables with sorting capabilities
-- 🎯 KPI cards with color-coded indicators
-- 📉 Gauge charts for financial ratios
-- 🥧 Pie charts for asset composition
-- 📋 Comprehensive data tables
-
-### **Professional Design**
-- 🎨 NVIDIA brand colors (green/black theme)
-- 📱 Responsive design for desktop and mobile
-- 🎯 Clean, professional layout
-- 💡 Beginner-friendly explanations with tooltips
-
-## 🛠️ Installation & Setup
-
-### **Prerequisites**
-- Python 3.8 or higher
-- pip package manager
-
-### **Installation Steps**
-
-1. **Clone or download the files:**
-   ```bash
-   # Download the following files:
-   # - nvidia_dashboard.py
-   # - requirements.txt
-   # - README.md
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the dashboard:**
-   ```bash
-   streamlit run nvidia_dashboard.py
-   ```
-
-4. **Access the dashboard:**
-   - Open your web browser
-   - Navigate to `http://localhost:8501`
-   - The dashboard will load automatically
-
-## 📊 Dashboard Sections
-
-### **1. Executive Summary**
-- Current stock price and key metrics
-- Strong Buy recommendation with confidence level
-- Quarterly revenue growth visualization
-- Key strengths and risk factors
-
-### **2. Fundamental Analysis**
-- Profitability trend charts (gross/net margins)
-- Financial ratio gauge charts (ROE, ROA, P/E)
-- Interactive quarterly financial data table
-- Year-over-year and quarter-over-quarter analysis
-
-### **3. Technical Analysis**
-- 30-day, 90-day, and 365-day performance metrics
-- Interactive stock price chart with hover tooltips
-- Support and resistance level analysis
-- Technical indicators and momentum analysis
-
-### **4. Balance Sheet**
-- Asset composition pie chart
-- Key balance sheet metrics with growth indicators
-- Financial health gauges (current ratio, etc.)
-- Debt analysis and net cash position
-
-### **5. Cash Flow**
-- Operating and free cash flow trend charts
-- Cash flow margin calculations
-- Capital allocation strategy visualization
-- R&D investment and share buyback analysis
-
-### **6. Investment Recommendation**
-- Clear Strong Buy recommendation with price target
-- Three key investment reasons with detailed explanations
-- Risk assessment gauge and scenario analysis
-- Investment strategy recommendations by investor type
-
-## 🎯 Key Data Points
-
-The dashboard includes comprehensive financial data:
-
-- **Current Metrics**: $171.38 stock price, $4.18T market cap
-- **Financial Performance**: 47% YoY revenue growth, 91.6% ROE
-- **Balance Sheet**: $125.25B total assets, $43.7B net cash
-- **Cash Flow**: $27.41B operating cash flow, $26.19B free cash flow
-- **Valuation**: 54.5x P/E ratio, 28.2x price-to-sales
-
-## 🔧 Customization
-
-### **Modifying Data**
-To update the financial data, edit the `load_financial_data()` function in `nvidia_dashboard.py`:
-
-```python
-@st.cache_data
-def load_financial_data():
-    # Update revenue_data, balance_sheet, key_metrics, etc.
-    # with new financial information
-```
-
-### **Styling Changes**
-Modify the CSS in the `st.markdown()` section at the top of the file:
-
-```python
-st.markdown("""
-<style>
-    .main-header {
-        background: linear-gradient(90deg, #76B900 0%, #000000 100%);
-        # Customize colors, fonts, spacing, etc.
-    }
-</style>
-""", unsafe_allow_html=True)
-```
-
-### **Adding New Sections**
-Add new pages by extending the sidebar selectbox and creating new conditional blocks:
-
-```python
-page = st.sidebar.selectbox(
-    "Select Section",
-    ["Executive Summary", "Your New Section", ...]
-)
-
-elif page == "Your New Section":
-    st.header("Your New Section")
-    # Add your content here
-```
-
-## 📱 Mobile Responsiveness
-
-The dashboard is optimized for mobile devices with:
-- Responsive column layouts that stack on smaller screens
-- Touch-friendly interactive elements
-- Collapsible sidebar navigation
-- Optimized chart sizes for mobile viewing
-
-## 🔒 Security & Privacy
-
-- No external API calls or data transmission
-- All data is embedded within the application
-- Runs locally on your machine
-- No user data collection or tracking
-
-## 🐛 Troubleshooting
-
-### **Common Issues**
-
-1. **Import Errors**:
-   ```bash
-   pip install --upgrade streamlit plotly pandas numpy
-   ```
-
-2. **Port Already in Use**:
-   ```bash
-   streamlit run nvidia_dashboard.py --server.port 8502
-   ```
-
-3. **Browser Not Opening**:
-   - Manually navigate to `http://localhost:8501`
-   - Try a different browser
-   - Check firewall settings
-
-### **Performance Optimization**
-
-- The dashboard uses `@st.cache_data` for efficient data loading
-- Charts are optimized for fast rendering
-- Responsive design minimizes mobile data usage
-
-## 📈 Future Enhancements
-
-Potential improvements for future versions:
-- Real-time data integration via APIs
-- PDF report generation functionality
-- Email alert system for price targets
-- Comparison with competitor stocks
-- Historical backtesting capabilities
-- Advanced technical indicators
-
-## 📞 Support
-
-For technical issues or questions:
-1. Check the troubleshooting section above
-2. Verify all dependencies are installed correctly
-3. Ensure you're using Python 3.8 or higher
-4. Try running with `streamlit run nvidia_dashboard.py --logger.level debug` for detailed logs
-
-## 📄 License
-
-This dashboard is created for educational and analysis purposes. Financial data should be verified independently before making investment decisions.
+🌐 **Portfolio**: [mbohra07.github.io/Madhuram-s-Portfolio](https://mbohra07.github.io/Madhuram-s-Portfolio/)
+📧 **Email**: madhurambohra.work@gmail.com
+💼 **LinkedIn**: [linkedin.com/in/madhuram-bohra](https://linkedin.com/in/madhuram-bohra)
+🐙 **GitHub**: [github.com/mbohra07](https://github.com/mbohra07)
 
 ---
 
-**Disclaimer**: This application is for informational purposes only and should not be considered as financial advice. Always consult with qualified financial professionals before making investment decisions.
+## 🎓 Education
+
+**MSc in Financial Engineering** | *WorldQuant University* | Jan 2025 - Jan 2027
+*CGPA: 9.4* | Focus on quantitative finance, risk management, and algorithmic trading
+
+**B.S in Data Science & Applications** | *Indian Institute of Technology, Madras* | Jan 2021 - Apr 2025
+*CGPA: 8.5* | Comprehensive program covering statistics, machine learning, and data analytics
+
+---
+
+## 💼 Experience
+
+### AI/ML Intern | *Black Hole Infinverse* | Apr 2025 - June 2025
+- 🤖 Developed AI-powered financial simulator with cash flow projections and personalized strategy recommendations
+- 💬 Built intelligent chatbot with RAG functionality via Supabase and MongoDB Atlas
+- 🔧 Designed MCP servers for Claude Desktop integration for trading analysis and order flow assessment
+
+### Data Science Intern | *Omdena* | Aug 2024 - Oct 2024
+- 📊 Collaborated on machine learning projects with global teams
+- 🔍 Applied data science techniques to solve real-world problems
+- 🌍 Contributed to open-source AI initiatives
+
+---
+
+## 🚀 Featured Projects
+
+### 🤖 Financial AI Chatbot with MCP Integration
+**Tech Stack**: MCP Client, OpenRouter, Real-time Data APIs
+Built an intelligent financial chatbot using custom MCP (Model Context Protocol) client, integrating OpenRouter for Perplexity-style conversational responses. Connects to both public and proprietary financial MCP servers with intelligent routing.
+
+### 📈 NVIDIA Investment Analysis Dashboard
+**Tech Stack**: Streamlit, Plotly, Pandas, NumPy
+Comprehensive financial dashboard transforming investment analysis into interactive visualizations with multi-page layout, dynamic charts, and professional design.
+
+### 🎯 Agentic AI Workflow Automation
+**Tech Stack**: n8n, Claude Desktop, MCP, CrewAI
+Developed autonomous AI agents that orchestrate complex business processes, integrating multiple AI models and tools for intelligent workflow automation.
+
+---
+
+## 🛠️ Technical Skills
+
+### Programming Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
+
+### AI/ML Libraries
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/🤗_Transformers-FFD21E?style=flat&logoColor=black)
+![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=flat&logoColor=black)
+
+### Development Tools
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=flat&logo=google-colab&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat&logo=cursor&logoColor=white)
+
+### LLM Integration
+![Langchain](https://img.shields.io/badge/🦜_Langchain-1C3C3C?style=flat&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF6B6B?style=flat&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_Desktop-FF6B35?style=flat&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-4A90E2?style=flat&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
+
+### Quantitative Finance
+- **Mathematical**: Linear Algebra, Calculus, Probability, Statistics
+- **Financial Models**: VAR (MC & Parametric), CAPM, Black-Scholes, Binomial Options Pricing
+- **Trading Strategies**: Hedging Strategies, Arbitrage Strategies, Options Spread
+- **Time Series**: ARIMA, GARCH, Monte Carlo Simulations
+
+---
+
+## 🏆 Certifications & Programs
+
+### Academic Enrichment Programs
+- **ACM Summer School - Responsible and Safe AI** | June 2024
+- **AI Entrepreneurship Workshop - IITM** | July - Aug 2024
+- **Quantitative Finance Bootcamp - WorldQuant** | Dec 2024
+
+### Professional Certifications
+- **Machine Learning Specialization** | Stanford University (Coursera)
+- **Deep Learning Specialization** | DeepLearning.AI
+- **Financial Engineering and Risk Management** | Columbia University
+
+---
+
+## 📈 GitHub Stats
+
+![Madhuram's GitHub stats](https://github-readme-stats.vercel.app/api?username=mbohra07&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mbohra07&layout=compact&theme=radical)
+
+---
+
+## 🎯 Current Focus
+
+- 🤖 **Agentic AI Systems**: Building autonomous agents that orchestrate complex business processes
+- 📊 **Financial Engineering**: Applying ML to quantitative finance and algorithmic trading
+- 🔗 **MCP Integration**: Developing Model Context Protocol servers for enhanced AI workflows
+- 🚀 **AI-Powered Solutions**: Creating intelligent systems that drive business value
+
+---
+
+## 📫 Let's Connect!
+
+I'm always interested in discussing AI/ML projects, financial engineering, or potential collaborations. Feel free to reach out!
+
+- 💼 **LinkedIn**: [madhuram-bohra](https://linkedin.com/in/madhuram-bohra)
+- 📧 **Email**: madhurambohra.work@gmail.com
+- 🌐 **Portfolio**: [mbohra07.github.io/Madhuram-s-Portfolio](https://mbohra07.github.io/Madhuram-s-Portfolio/)
+- 🐙 **GitHub**: [@mbohra07](https://github.com/mbohra07)
+
+---
+
+## 🌟 Fun Facts
+
+- 🧠 Passionate about the intersection of AI and finance
+- 📚 Constantly learning new technologies and methodologies
+- 🎯 Believer in responsible AI development and ethical practices
+- 🌍 Interested in using AI to solve global challenges
+- ⚡ Quick learner with a growth mindset
+
+---
+
+**"Building the future, one algorithm at a time."** 🚀
+
+---
+
+*Last updated: January 2025*
