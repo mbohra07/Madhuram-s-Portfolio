@@ -36,7 +36,7 @@
 ## 🚀 Featured Projects
 
 ### 🤖 Custom MCP Client - Proof of Concept
-**Tech Stack**: Python 3.12+, MCP SDK, Greg API, Streamlit, AsyncIO
+**Tech Stack**: Python 3.12+, MCP SDK, Groq API, Streamlit, AsyncIO
 Built a custom MCP (Model Context Protocol) client as a proof of concept to scale up with multiple MCP servers. Leverages LLM's reasoning capabilities to intelligently select and use the right tool at the right time based on user queries and preferences, demonstrating seamless integration across diverse tool ecosystems.
 
 ### 📈 NVIDIA Investment Analysis Dashboard
