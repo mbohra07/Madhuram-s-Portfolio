@@ -288,14 +288,16 @@ section {
 
 .experience-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    /* Match the academic programs grid so three cards can sit side-by-side on wide screens */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
 
 .experience-card {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
+    /* Slightly larger radius to visually match program cards */
+    border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
 }
